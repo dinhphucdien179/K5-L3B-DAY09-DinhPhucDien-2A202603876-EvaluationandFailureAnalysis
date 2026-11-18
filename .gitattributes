@@ -1,0 +1,5 @@
+# lab9.evalset hashes the eval set bytes (report manifest eval_set_sha). A CRLF checkout on
+# Windows (core.autocrlf=true) would change that hash and make every gate run against the
+# committed baselines fail with "EVAL SET differs". Keep these files LF on every OS.
+src/data/eval/eval_set_v*.jsonl text eol=lf
+src/data/eval/labels_v*.json text eol=lf
