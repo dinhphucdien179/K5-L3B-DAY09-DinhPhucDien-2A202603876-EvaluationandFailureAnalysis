@@ -1,0 +1,3 @@
+# Bonus only (python -m bonus.inspect_port). Not installed by CI; install on top of
+# requirements.txt and requirements-lab9.txt, ideally in a separate virtualenv.
+inspect-ai==0.3.291
